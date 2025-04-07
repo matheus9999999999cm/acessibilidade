@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #00040a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.cabecalho-imagem{
+    width: 25%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.Time-imagem{
+    width: 25%;
+}
+
+.Clube{
+    background-image: linear-gradient(#00040a,#787a7a);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Time-div-conteudo{
+    width: 35%; 
+}
+
+
+.Time-titulo{
+    padding: 24px 0;
+}
+
+.Jogador{
+    padding: 24px 0;
+}
+.Jogador-imagem{
+    width: 120px;
+}
+
+.Jogador-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.Jogador-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.Jogador-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Jogador-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-image: linear-gradient(#ffff,#787a7a);;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 20px;
+    padding: 12px 0;
+}
+.menu-acessibilidade {
+    position: fixed;
+    bottom: 120px; /* Move os botões para cima do footer */
+    right: 20px;
+    z-index: 9999; /* Garante que fiquem sobre o footer */
+    background: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para melhor visibilidade */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .opcoes-acessibilidade {
+    display: none; /* Esconde as opções até serem ativadas */
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .opcoes-acessibilidade.apresenta-lista {
+    display: flex; /* Mostra as opções quando ativadas */
+  }
+  
+  .menu-acessibilidade {
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 1000; /* Garante que fique acima do footer */
+  }
+  
+  .opcoes-acessibilidade {
+    display: none; /* Começa invisível */
+    flex-direction: column;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .opcoes-acessibilidade.apresenta-lista {
+    display: flex; /* Exibe quando ativado */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* fixa a lateral esquerda */
+    right: 0; /* fixa a lateral direita */
+    width: 100%; /* ajusta a largura do footer */
+    height: 100px; /* ajusta a altura do footer */
+    background-color: #16771e; /* ajusta a cor de fundo do footer */
+  }
+  
+  .banner {
+    position: relative;
+    left: 0; /* fixa a lateral esquerda */
+    right: 0; /* fixa a lateral direita */
+    width: 100%; /* ajusta a largura do banner */
+    height: 500px; /* ajusta a altura do banner */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #16771e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
